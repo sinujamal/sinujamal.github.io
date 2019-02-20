@@ -1,0 +1,260 @@
+body {
+	background-color:#f3f3f3;
+	font-family: "Open Sans", sans-serif;
+}
+
+section  {
+display:inline-block;
+width: 100%;
+
+}
+.menu {
+	overflow: visible;
+	display: block;
+    list-style-type: disc;
+	float:right;
+	margin-right:1rem;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	margin-right:5px;
+    font-family: Heebo,sans-serif;
+	font-weight: 400;
+
+}
+
+.menu li a:link{
+	text-decoration:none
+}
+
+.menu li a:hover{
+	color:#008fe1;
+	font-weight:600;
+}
+
+.menu li a:active{
+	color:#008fe1;
+	font-weight:600;
+}
+
+.menu li:after, .menu li:before{box-sizing: border-box;}
+
+.header {
+	width:100%;
+	display:inline-block;
+}
+
+.header a{
+	float: left;
+}
+.header nav{
+	float: right;
+}
+#main-container {
+	background: #fff;
+    margin: 0 auto;
+    max-width: 66rem;
+    overflow: hidden;
+    
+}
+
+.banner {
+	width:100%;
+	height: 400px;	
+	overflow: hidden;
+	display:block;
+}
+.banner:after {
+	transform: scale(1.5);
+
+}
+.banner img {
+	width:100%;
+	height:inherit;
+	-webkit-animation: zoomin 10s ease-in infinite;
+  animation: zoomin 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+	
+}
+
+@-webkit-keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+}
+
+
+
+.float_right
+{
+	float: right;
+}
+
+.float_left
+{
+	float: left;
+}
+
+
+.col_1 {
+	max-width:100%;
+}
+.col_2 { 
+  max-width: 47%;
+}
+.col_1_3 {
+  max-width: 30%;  
+}
+.col_2_3 {
+ 
+  max-width: 63%;
+  
+}
+.col_1_5 {
+	max-width: 20%;
+}
+.col_4_5 {
+	max-width:80%;
+}
+.service_item, .training_item {
+	height:50%;
+	border-radius: 5px;
+	text-align: center;
+    background-color: #fff;
+    padding-top: 1.75rem; 
+	padding-left:1rem;
+    position: relative;
+	
+	margin:0% 2% 2.5% 0;
+	box-shadow: 0 0 15px rgba(119, 201, 232, 0.8);
+}
+
+
+.service_item img
+{
+    width: 25%;
+	color: blue;
+}
+
+#services {
+	padding-left:5%
+	
+	
+}
+
+#service_intro_title
+{
+	font-family: "Josefin Sans", sans-serif;
+    margin: 0 0 0.625rem;
+	font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 5%;
+}
+
+#service_intro_desc
+{
+	color:rgba(0,0,0,0.8);
+	line-height:2rem
+}
+
+.icon {
+	
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+	display: inline-block;
+}
+
+#training .icon {
+	
+	background-image: url(../fonts/training.svg);
+	background-size: 80% 
+}
+
+.service_item h3 {
+	font-weight:700;
+	word-break: break-word;
+	margin: 0 1rem;
+	line-height: 1;
+	
+}
+.service_item div {
+	display: inline-block;
+}
+.service_item div div:nth-child(2) {
+	width: 70%;
+}
+
+.service_item  #desc {
+	width: 100%;
+	text-align: justify;
+	padding: 0 1rem 0 0;
+	color: rgba(0,0,0,0.8);
+}
+
+#latest_trainings {
+	background-color: #018fe12b;
+	padding: 5% 0% 2% 7%;
+}
+.heading {
+	text-align:center;
+}
+.heading h1
+{
+	font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+	margin-bottom:0px;
+}
+
+.heading p
+{
+	font-size: 18px;
+	color: rgb(102, 102, 102);
+	margin-top:0px;
+}
+
+.training_item {
+	
+	height:100%;
+	display: inline-block;
+	min-height: 1px;
+	padding: 35px;
+}
+
+.training_item img {
+	height: 6rem;
+	padding-top: 1rem;
+}
+
+.more {
+	color: rgb(255, 255, 255) !important;
+    background: rgb(120, 158, 207);
+    outline: none;
+	padding: 14px 28px;	
+	max-width: 100%;
+    margin-right: 5.5%;
+    text-align: center;
+	text-decoration:none;
+	display:block;
+}
+
+.more span
+{
+	font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+	
+}
+
+
+#footer
+{
+	padding:2rem 2rem 1rem 5rem;
+}
