@@ -22,11 +22,13 @@ width: 100%;
 	margin-right:5px;
     font-family: Heebo,sans-serif;
 	font-weight: 400;
-
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .menu li a:link{
 	text-decoration:none
+	
 }
 
 .menu li a:hover{
@@ -36,10 +38,20 @@ width: 100%;
 
 .menu li a:active{
 	color:#008fe1;
-	font-weight:600;
+	font-weight:bold;
+	
+}
+
+.activeMenu {
+	color:#008fe1;
+	font-weight:800;
 }
 
 .menu li:after, .menu li:before{box-sizing: border-box;}
+.menu li:after {
+	content: "\007C";
+	padding-left:15px;
+}
 
 .header {
 	width:100%;
