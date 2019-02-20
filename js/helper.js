@@ -38,9 +38,11 @@ var showHeader = function(showFlg){
 	var hdrStr = '<header class="header">'+
 		'<a href="'+base_url+'"> <img src="'+base_url+'/img/logo.png"> </img></a>'+
 		'<nav><ul class="menu">'+
-				'<li><a href="#">Your menu </a></li>'+
-				'<li><a href="#">Your menu </a></li>'+
-				'<li><a href="#">Your menu </a></li>'+
+				'<li><a href="'+base_url+'">Home </a></li>'+
+				'<li><a href="'+ base_url +'pages/alltraiinings.html">Training </a></li>'+
+				'<li><a href="#">Services </a></li>'+
+				'<li><a href="#">Products </a></li>'+
+				'<li><a href="#">About Us </a></li>'+
 			'</ul>'+
 		'</nav>'+
 	'</header>';
