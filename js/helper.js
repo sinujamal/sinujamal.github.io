@@ -1,4 +1,4 @@
-var base_url = "http://localhost/zt";
+var base_url = "https://sinujamal.github.io/";
 
 var updateTrainingList = function(parentDom, ltstListFlg)
 {	//alert(trng_lst);
