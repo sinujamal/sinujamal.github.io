@@ -36,7 +36,7 @@ var showHeader = function(showFlg){
 	var mainCntnr = document.getElementById('main-container');
 	var prevInnerHTML = mainCntnr.innerHTML;
 	var hdrStr = '<header class="header">'+
-		'<a href="#"> <img src="'+base_url+'/img/logo.png"> </img></a>'+
+		'<a href="'+base_url+'"> <img src="'+base_url+'/img/logo.png"> </img></a>'+
 		'<nav><ul class="menu">'+
 				'<li><a href="#">Your menu </a></li>'+
 				'<li><a href="#">Your menu </a></li>'+
