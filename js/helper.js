@@ -37,9 +37,9 @@ var showHeader = function(showFlg){
 	var prevInnerHTML = mainCntnr.innerHTML;
 	var hdrStr = '<header class="header">'+
 		'<a href="'+base_url+'"> <img src="'+base_url+'/img/logo.png"> </img></a>'+
-		'<nav><ul class="menu">'+
+		'<nav><ul class="menu" id="topMenu">'+
 				'<li><a href="'+base_url+'">Home </a></li>'+
-				'<li><a href="'+ base_url +'pages/alltraiinings.html">Training </a></li>'+
+				'<li><a href="'+ base_url +'/pages/alltraiinings.html">Training </a></li>'+
 				'<li><a href="#">Services </a></li>'+
 				'<li><a href="#">Products </a></li>'+
 				'<li><a href="#">About Us </a></li>'+
@@ -49,6 +49,12 @@ var showHeader = function(showFlg){
 	
 	mainCntnr.innerHTML = hdrStr + prevInnerHTML;	
 };
+
+var highlightMenu = function(pos) {
+	var lis = document.getElementById("topMenu").getElementsByTagName("li")
+	lis[pos].setAttribute("class","activeMenu");
+	lis[pos].setAttribute("style","font-weight:600");
+}
 
 var showFooter = function(showFlg){
 	var mainCntnr = document.getElementById('main-container');
