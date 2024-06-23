@@ -2415,8 +2415,8 @@ figure {
 .logo {
     flex: none;
     width: auto;
-    min-width: 6.125rem;
-    height: 2rem;
+    min-width: 90%;
+    height: 90%;
 }
 .nav-link {
     color: var(--neutral-500);
@@ -16083,7 +16083,7 @@ figure {
     min-width: 14.0625rem;
 }
 .fn-nav-dropdown-list.products {
-    min-width: 30.625rem;
+    min-width: 10.625rem;
 }
 .fn-nav-dropdown-list.solutions {
     min-width: 35.9375rem;
@@ -19778,7 +19778,7 @@ figure {
         font-weight: 500;
     }
     .logo {
-        width: 110px;
+        width: 100%;
     }
     .nav-link {
         flex: 0 auto;
@@ -21836,8 +21836,8 @@ figure {
         width: auto;
     }
     .logo {
-        width: 98px;
-        min-width: 98px;
+        width: 100%;
+        min-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
