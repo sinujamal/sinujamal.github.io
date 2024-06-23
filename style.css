@@ -10475,7 +10475,7 @@ figure {
     background-color: transparent;
 }
 .btn-2.is--form {
-    background-color: #e91e63;
+    background-color: #0179b6;
     border-radius: 4px;
     padding-top: 20px;
 }
@@ -10651,7 +10651,7 @@ figure {
     width: 100%;
     max-width: 453px;
     padding: 28px 30px 26px;
-    box-shadow: 5px 4px rgba(233, 30, 99, 0.12);
+    box-shadow: 5px 4px #b4c0ff;
 }
 .social-link-2 {
     color: #8b0abe;
@@ -26301,7 +26301,7 @@ figure {
     grid-area: 1/1/2/9;
 }
 #w-node-_809c11a2-cbeb-9a12-1c9c-a731c8676fc6-e72a44e6 {
-    grid-area: span 1 / span 4 / span 1 / span 4;
+    grid-area: span 1 / span 5 / span 1 / span 5;
     align-self: start;
 }
 #w-node-_809c11a2-cbeb-9a12-1c9c-a731c8676fc7-e72a44e6,
@@ -26326,7 +26326,7 @@ figure {
     grid-area: 1/1/2/8;
 }
 #w-node-_5c11b227-683e-5d4e-9f21-c53603338dbc-e72a453e {
-    grid-area: 1/9/2/13;
+    grid-area: 1/8/2/13;
     align-self: end;
 }
 #w-node-_5c11b227-683e-5d4e-9f21-c53603338de4-e72a453e,
